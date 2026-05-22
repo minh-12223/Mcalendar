@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  color: #451a03; /* Tương đương text-amber-950 */
+  font-family: "Inter", system-ui, sans-serif;
+  
+  background-image: url("https://i.pinimg.com/736x/a9/62/ad/a962ad0aa9b97d66825f3dac3b38c7e0.jpg");
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Giữ nguyên các lớp tiện ích tuyệt vời của bạn */
+.pastel-card {
+  @apply bg-white/70 backdrop-blur-sm rounded-2xl shadow-sm border border-amber-100/50 p-6;
+}
+
+.btn-primary {
+  @apply px-4 py-2 bg-amber-950 text-white rounded-xl font-medium hover:bg-amber-900 transition-colors shadow-sm;
+}
