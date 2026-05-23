@@ -1,5 +1,6 @@
 {
   "name": "timetable-gamified-app",
+  "homepage": "https://minh-12223.github.io/Mcalendar/",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -7,7 +8,8 @@
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
